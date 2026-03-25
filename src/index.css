@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@plugin "daisyui";@import "tailwindcss";
+@plugin "daisyui";
+
+/* Jodi ekhono dark thake, eita add koro */
+:root {
+  color-scheme: light;
+}
