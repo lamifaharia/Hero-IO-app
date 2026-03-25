@@ -1,0 +1,113 @@
+[
+  {
+    "id": 1,
+    "name": "Vocab Mela",
+    "image": "https://i.ibb.co/vxb16Yy/vocab.png",
+    "category": "Education",
+    "description": "Master English vocabulary with AI pronunciation and interactive flashcards.",
+    "rating": 4.8,
+    "price": "Free",
+    "isTrending": true
+  },
+  {
+    "id": 2,
+    "name": "Support Zone",
+    "image": "https://i.ibb.co/XSB32G1/support.png",
+    "category": "Business",
+    "description": "A powerful ticketing system to manage your customer queries in real-time.",
+    "rating": 4.5,
+    "price": "$2.99",
+    "isTrending": true
+  },
+  {
+    "id": 3,
+    "name": "Health Sync",
+    "image": "https://i.ibb.co/L5hYw7z/health.png",
+    "category": "Healthcare",
+    "description": "Track your heart rate and daily steps with smart AI insights.",
+    "rating": 4.9,
+    "price": "Free",
+    "isTrending": true
+  },
+  {
+    "id": 4,
+    "name": "Code Hero",
+    "category": "Education",
+    "description": "Learn React and Tailwind interactively through hands-on projects.",
+    "rating": 4.7,
+    "price": "$9.99",
+    "isTrending": true
+  },
+  {
+    "id": 5,
+    "name": "Task Master",
+    "category": "Productivity",
+    "description": "Organize your daily tasks and boost your productivity efficiently.",
+    "rating": 4.6,
+    "price": "Free",
+    "isTrending": false
+  },
+  {
+    "id": 6,
+    "name": "Cash Flow",
+    "category": "Finance",
+    "description": "Track your daily income and expenses with detailed reports.",
+    "rating": 4.4,
+    "price": "$1.49",
+    "isTrending": false
+  },
+  {
+    "id": 7,
+    "name": "Cook Pro",
+    "category": "Food",
+    "description": "Access thousands of recipes from around the world in one place.",
+    "rating": 4.3,
+    "price": "Free",
+    "isTrending": false
+  },
+  {
+    "id": 8,
+    "name": "News Hub",
+    "category": "Media",
+    "description": "Get the latest breaking news and world updates in real-time.",
+    "rating": 4.2,
+    "price": "Free",
+    "isTrending": false
+  },
+  {
+    "id": 9,
+    "name": "Weather Fly",
+    "category": "Utility",
+    "description": "Get accurate local and global weather forecasts instantly.",
+    "rating": 4.7,
+    "price": "Free",
+    "isTrending": false
+  },
+  {
+    "id": 10,
+    "name": "Music Beats",
+    "category": "Entertainment",
+    "description": "Stream your favorite songs and discover new artists daily.",
+    "rating": 4.9,
+    "price": "$4.99",
+    "isTrending": false
+  },
+  {
+    "id": 11,
+    "name": "Travel Guide",
+    "category": "Lifestyle",
+    "description": "Plan your next vacation with the best hotel and flight deals.",
+    "rating": 4.5,
+    "price": "Free",
+    "isTrending": false
+  },
+  {
+    "id": 12,
+    "name": "Safe Guard",
+    "category": "Security",
+    "description": "Protect your mobile data with industry-leading encryption.",
+    "rating": 4.6,
+    "price": "$1.99",
+    "isTrending": false
+  }
+]

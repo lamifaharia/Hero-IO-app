@@ -20,7 +20,7 @@ const Header = () => {
             {links}
           </ul>
         </div>
-        {/* Figma Logo Text */}
+        {/*----------------------- Figma Logo Text -----------------------*/}
         <Link to="/" className="text-2xl font-black text-[#142A5C] tracking-tighter">HERO.IO</Link>
       </div>
       <div className="navbar-center hidden lg:flex">

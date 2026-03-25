@@ -4,13 +4,15 @@ import Footer from "./Components/Footer";
 import HeroBanner from "./Components/HeroBanner";
 import TrustedBy from "./Components/TrustedBy";
 import TrendingApps from "./Components/TrendingApps";
+import AppDetails from "./Components/AppDetails"
+import Apps from "./Components/Apps"
 
-// Layout Component (Only common things like Header & Footer)
+
 const MainLayout = () => (
   <div className="min-h-screen flex flex-col font-sans">
     <Header />
     <div className="flex-grow">
-      <Outlet /> {/* Ekhane dynamic page gulo ashbe */}
+      <Outlet /> 
     </div>
     <Footer />
   </div>
@@ -34,6 +36,14 @@ function App() {
               </div>
             </>
           ),
+        },
+        {
+        path: "/apps", 
+        element: <Apps />, // 👈 Eikhane 12-ta dekhabe
+      },
+        {
+          path: "/app/:id", // :id mane dynamic path
+          element: <AppDetails />,
         },
         {
           path: "/apps",
