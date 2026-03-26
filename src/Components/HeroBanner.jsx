@@ -25,7 +25,7 @@ const HeroBanner = () => {
                 <div className="relative w-full flex justify-center items-center mt-12 lg:mt-0">
                     
                     <img 
-                        src="/public/images/hero.png"
+                        src="/images/hero.png"
                         alt="Hero App UI" 
                         className="relative z-20 w-full max-w-[800px] h-auto drop-shadow-2xl"
                     />
