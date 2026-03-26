@@ -6,17 +6,35 @@ import TrustedBy from "./Components/TrustedBy";
 import TrendingApps from "./Components/TrendingApps";
 import AppDetails from "./Components/AppDetails"
 import Apps from "./Components/Apps"
+import { useState } from "react";
+import Installation from "./Components/Installation";
 
 
-const MainLayout = () => (
-  <div className="min-h-screen flex flex-col font-sans">
-    <Header />
-    <div className="flex-grow">
-      <Outlet /> 
-    </div>
-    <Footer />
-  </div>
-);
+const MainLayout = () => {
+
+  const [installedApps, setInstalledApps] = useState([]);
+
+    const handleInstall = (app) => {
+        const isExist = installedApps.find(item => item.id === app.id);
+        if (!isExist) {
+            setInstalledApps([...installedApps, app]);
+            alert(`${app.name} is now installed!`);
+        } else {
+            alert("App is already in your installation list.");
+        }
+    };
+
+    return (
+        <div className="min-h-screen flex flex-col font-sans">
+            <Header />
+            <div className="flex-grow">
+
+                <Outlet context={[installedApps, handleInstall]} />
+            </div>
+            <Footer />
+        </div>
+    );
+};
 
 function App() {
   const router = createBrowserRouter([
@@ -24,36 +42,29 @@ function App() {
       path: "/",
       element: <MainLayout />,
       children: [
-        {
-          path: "/",
-          element: (
-            <>
-              <HeroBanner />
-              <TrustedBy />
-              <TrendingApps/>
-              <div className="py-10 text-center text-gray-400 font-medium italic">
-                Trending Apps section is coming soon...
-              </div>
-            </>
-          ),
-        },
-        {
-        path: "/apps", 
-        element: <Apps />, // 👈 Eikhane 12-ta dekhabe
+      {
+        path: "/",
+        element: (
+          <>
+            <HeroBanner />
+            <TrustedBy />
+            <TrendingApps />
+          </>
+        ),
       },
-        {
-          path: "/app/:id", // :id mane dynamic path
-          element: <AppDetails />,
-        },
-        {
-          path: "/apps",
-          element: <div className="p-20 text-center text-3xl font-bold">📱 All Applications Page</div>,
-        },
-        {
-          path: "/installation",
-          element: <div className="p-20 text-center text-3xl font-bold">🔧 Installation Guide Page</div>,
-        },
-      ],
+      {
+        path: "/apps", 
+        element: <Apps />, // 👈 Eikhane 12-ta app dekhabe
+      },
+      {
+        path: "/app/:id",
+        element: <AppDetails />, // 👈 Details page
+      },
+      {
+        path: "/installation",
+        element: <Installation />, // 👈 Installed app list
+      },
+    ],
     },
   ]);
 
