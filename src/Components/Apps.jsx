@@ -1,21 +1,20 @@
 import { useEffect, useState } from "react";
-import AppCard from "../components/AppCard";
+import AppCard from "../Components/AppCard";
 
 const Apps = () => {
-    const [allApps, setAllApps] = useState([]); // Database theke ana original 12-ta app
-    const [filteredApps, setFilteredApps] = useState([]); // Search korar por ja baki thakbe
-    const [searchText, setSearchText] = useState(""); // Input box-er text
+    const [allApps, setAllApps] = useState([]);  
+    const [filteredApps, setFilteredApps] = useState([]); 
+    const [searchText, setSearchText] = useState(""); 
 
     useEffect(() => {
         fetch('/apps.json')
             .then(res => res.json())
             .then(data => {
                 setAllApps(data);
-                setFilteredApps(data); // Shuru-te 12-ta app-ei dekhabe
+                setFilteredApps(data);
             });
     }, []);
 
-    // 🔍 SEARCH LOGIC: Requirements onujayi name/category filter
     const handleSearch = (e) => {
         const term = e.target.value.toLowerCase();
         setSearchText(term);

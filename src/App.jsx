@@ -8,6 +8,7 @@ import AppDetails from "./Components/AppDetails"
 import Apps from "./Components/Apps"
 import { useState } from "react";
 import Installation from "./Components/Installation";
+import ErrorPage from "./Components/ErrorPage";
 
 
 const MainLayout = () => {
@@ -41,6 +42,7 @@ function App() {
     {
       path: "/",
       element: <MainLayout />,
+      errorElement: <ErrorPage />,
       children: [
       {
         path: "/",
@@ -54,15 +56,15 @@ function App() {
       },
       {
         path: "/apps", 
-        element: <Apps />, // 👈 Eikhane 12-ta app dekhabe
+        element: <Apps />, 
       },
       {
         path: "/app/:id",
-        element: <AppDetails />, // 👈 Details page
+        element: <AppDetails />, 
       },
       {
         path: "/installation",
-        element: <Installation />, // 👈 Installed app list
+        element: <Installation />, 
       },
     ],
     },
