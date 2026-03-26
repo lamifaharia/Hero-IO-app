@@ -19,10 +19,10 @@ const Apps = () => {
         const term = e.target.value.toLowerCase();
         setSearchText(term);
         
-        const filtered = allApps.filter(app => 
-            app.name.toLowerCase().includes(term) || 
-            app.category.toLowerCase().includes(term)
-        );
+        // 🔍 Search Logic-er bhetore filter ta eibhabe thik koro:
+    const filtered = allApps.filter(app => 
+    app.title.toLowerCase().includes(term) || 
+    app.companyName.toLowerCase().includes(term));
         setFilteredApps(filtered);
     };
 

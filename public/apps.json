@@ -1,113 +1,272 @@
 [
   {
     "id": 1,
-    "name": "Vocab Mela",
-    "image": "https://i.ibb.co/vxb16Yy/vocab.png",
-    "category": "Education",
-    "description": "Master English vocabulary with AI pronunciation and interactive flashcards.",
-    "rating": 4.8,
-    "price": "Free",
-    "isTrending": true
+    "title": "Focus Plan",
+    "companyName": "Productivity Inc.",
+    "image": "https://api.dicebear.com/7.x/identicon/svg?seed=focus",
+    "description": "The focus plan app is a powerful tool designed to help users manage their tasks efficiently. This application offers a clean and minimalist design, helping you stay away from distractions.",
+    "size": 12,
+    "reviews": 1250,
+    "ratingAvg": 4.8,
+    "downloads": 54000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 800 }
+    ]
   },
   {
     "id": 2,
-    "name": "Support Zone",
-    "image": "https://i.ibb.co/XSB32G1/support.png",
-    "category": "Business",
-    "description": "A powerful ticketing system to manage your customer queries in real-time.",
-    "rating": 4.5,
-    "price": "$2.99",
-    "isTrending": true
+    "title": "Calc Master",
+    "companyName": "Utility Soft",
+    "image": "https://api.dicebear.com/7.x/identicon/svg?seed=calc",
+    "description": "Smart scientific calculator with unit conversion and history tracking. Solve complex equations with ease and precision.",
+    "size": 8,
+    "reviews": 850,
+    "ratingAvg": 4.5,
+    "downloads": 22000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 240 },
+      { "name": "5 star", "count": 400 }
+    ]
   },
   {
     "id": 3,
-    "name": "Health Sync",
-    "image": "https://i.ibb.co/L5hYw7z/health.png",
-    "category": "Healthcare",
-    "description": "Track your heart rate and daily steps with smart AI insights.",
-    "rating": 4.9,
-    "price": "Free",
-    "isTrending": true
+    "title": "EduTrack",
+    "companyName": "Academic Pro",
+    "image": "https://api.dicebear.com/7.x/identicon/svg?seed=edu",
+    "description": "Keep track of your assignments, grades, and class schedules in one place. Your ultimate digital academic assistant.",
+    "size": 15,
+    "reviews": 2100,
+    "ratingAvg": 4.9,
+    "downloads": 89000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 75 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1500 }
+    ]
   },
   {
     "id": 4,
-    "name": "Code Hero",
-    "category": "Education",
-    "description": "Learn React and Tailwind interactively through hands-on projects.",
-    "rating": 4.7,
-    "price": "$9.99",
-    "isTrending": true
+    "title": "FitLife",
+    "companyName": "Health Metrics",
+    "image": "https://api.dicebear.com/7.x/identicon/svg?seed=fit",
+    "description": "Track your steps, water intake, and daily workout routines. Stay healthy with personalized coaching plans.",
+    "size": 22,
+    "reviews": 3400,
+    "ratingAvg": 4.7,
+    "downloads": 120000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 450 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 1500 }
+    ]
   },
   {
     "id": 5,
-    "name": "Task Master",
-    "category": "Productivity",
-    "description": "Organize your daily tasks and boost your productivity efficiently.",
-    "rating": 4.6,
-    "price": "Free",
-    "isTrending": false
+    "title": "Swift Pay",
+    "companyName": "FinTech Lab",
+    "image": "https://api.dicebear.com/7.x/identicon/svg?seed=pay",
+    "description": "Secure and fast digital wallet. Manage expenses and send money with just one tap with advanced encryption.",
+    "size": 18,
+    "reviews": 1100,
+    "ratingAvg": 4.6,
+    "downloads": 45000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 470 }
+    ]
   },
   {
     "id": 6,
-    "name": "Cash Flow",
-    "category": "Finance",
-    "description": "Track your daily income and expenses with detailed reports.",
-    "rating": 4.4,
-    "price": "$1.49",
-    "isTrending": false
+    "title": "Cloud Notes",
+    "companyName": "Sync Media",
+    "image": "https://api.dicebear.com/7.x/identicon/svg?seed=notes",
+    "description": "Sync your thoughts across all devices. Real-time collaboration and markdown support for the modern note-taker.",
+    "size": 10,
+    "reviews": 900,
+    "ratingAvg": 4.4,
+    "downloads": 30000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 350 }
+    ]
   },
   {
     "id": 7,
-    "name": "Cook Pro",
-    "category": "Food",
-    "description": "Access thousands of recipes from around the world in one place.",
-    "rating": 4.3,
-    "price": "Free",
-    "isTrending": false
+    "title": "Dev Tools",
+    "companyName": "Coder Hive",
+    "image": "https://api.dicebear.com/7.x/identicon/svg?seed=dev",
+    "description": "Essential tools for web developers. Inspect JSON, format code, and test APIs instantly from your mobile.",
+    "size": 5,
+    "reviews": 500,
+    "ratingAvg": 5.0,
+    "downloads": 15000,
+    "ratings": [
+      { "name": "1 star", "count": 0 },
+      { "name": "2 star", "count": 0 },
+      { "name": "3 star", "count": 0 },
+      { "name": "4 star", "count": 50 },
+      { "name": "5 star", "count": 450 }
+    ]
   },
   {
     "id": 8,
-    "name": "News Hub",
-    "category": "Media",
-    "description": "Get the latest breaking news and world updates in real-time.",
-    "rating": 4.2,
-    "price": "Free",
-    "isTrending": false
+    "title": "Chat Connect",
+    "companyName": "Global Social",
+    "image": "https://api.dicebear.com/7.x/identicon/svg?seed=chat",
+    "description": "End-to-end encrypted messaging and high-quality video calls. Stay connected with family worldwide.",
+    "size": 35,
+    "reviews": 7800,
+    "ratingAvg": 4.3,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 2500 }
+    ]
   },
   {
     "id": 9,
-    "name": "Weather Fly",
-    "category": "Utility",
-    "description": "Get accurate local and global weather forecasts instantly.",
-    "rating": 4.7,
-    "price": "Free",
-    "isTrending": false
+    "title": "Music Stream",
+    "companyName": "Audio Pulse",
+    "image": "https://api.dicebear.com/7.x/identicon/svg?seed=music",
+    "description": "Listen to millions of songs. High-quality audio and personalized playlists based on your listening habits.",
+    "size": 40,
+    "reviews": 4500,
+    "ratingAvg": 4.7,
+    "downloads": 200000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 2000 }
+    ]
   },
   {
     "id": 10,
-    "name": "Music Beats",
-    "category": "Entertainment",
-    "description": "Stream your favorite songs and discover new artists daily.",
-    "rating": 4.9,
-    "price": "$4.99",
-    "isTrending": false
+    "title": "Photo Pro",
+    "companyName": "Pixel Edit",
+    "image": "https://api.dicebear.com/7.x/identicon/svg?seed=photo",
+    "description": "Advanced filters and retouching tools for professional photo editing. Share directly to social media.",
+    "size": 55,
+    "reviews": 2300,
+    "ratingAvg": 4.6,
+    "downloads": 75000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 900 }
+    ]
   },
   {
     "id": 11,
-    "name": "Travel Guide",
-    "category": "Lifestyle",
-    "description": "Plan your next vacation with the best hotel and flight deals.",
-    "rating": 4.5,
-    "price": "Free",
-    "isTrending": false
+    "title": "Safe Drive",
+    "companyName": "Map Tech",
+    "image": "https://api.dicebear.com/7.x/identicon/svg?seed=drive",
+    "description": "Real-time traffic updates and accurate GPS navigation. Stay safe with voice-guided directions.",
+    "size": 60,
+    "reviews": 1200,
+    "ratingAvg": 4.5,
+    "downloads": 60000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 400 }
+    ]
   },
   {
     "id": 12,
-    "name": "Safe Guard",
-    "category": "Security",
-    "description": "Protect your mobile data with industry-leading encryption.",
-    "rating": 4.6,
-    "price": "$1.99",
-    "isTrending": false
+    "title": "Game Hub",
+    "companyName": "Play Zone",
+    "image": "https://api.dicebear.com/7.x/identicon/svg?seed=game",
+    "description": "Discover popular mobile games and compete in global leaderboards. The home for every mobile gamer.",
+    "size": 120,
+    "reviews": 15000,
+    "ratingAvg": 4.8,
+    "downloads": 1000000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 4000 },
+      { "name": "5 star", "count": 7000 }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Stock Watch",
+    "companyName": "Market Pro",
+    "image": "https://api.dicebear.com/7.x/identicon/svg?seed=stock",
+    "description": "Track real-time stock prices and crypto trends. Get alerts for market changes and news updates.",
+    "size": 14,
+    "reviews": 600,
+    "ratingAvg": 4.2,
+    "downloads": 25000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 150 },
+      { "name": "5 star", "count": 200 }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Weather Go",
+    "companyName": "Sky Forecast",
+    "image": "https://api.dicebear.com/7.x/identicon/svg?seed=weather",
+    "description": "Accurate local weather forecasts and severe weather alerts. Plan your day with hourly updates.",
+    "size": 7,
+    "reviews": 3200,
+    "ratingAvg": 4.7,
+    "downloads": 150000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 1150 },
+      { "name": "5 star", "count": 1500 }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Chef Book",
+    "companyName": "Yum Recipes",
+    "image": "https://api.dicebear.com/7.x/identicon/svg?seed=chef",
+    "description": "Access thousands of recipes from professional chefs. Create your own digital cookbook and meal plan.",
+    "size": 25,
+    "reviews": 1800,
+    "ratingAvg": 4.8,
+    "downloads": 55000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 240 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1000 }
+    ]
   }
 ]
