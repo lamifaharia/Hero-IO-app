@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const AppCard = ({ id, title, companyName, image, ratingAvg }) => {
     return (
         <div className="bg-white p-5 rounded-3xl shadow-sm border border-gray-50 hover:shadow-md transition-all flex flex-col h-full group">
-            {/* 🖼️ App Image */}
+            {/*----------------------- App Image -----------------------*/}
             <div className="w-20 h-20 mb-5 overflow-hidden rounded-2xl shadow-inner bg-gray-100 group-hover:scale-105 transition-transform">
                 <img 
                     src={image} 

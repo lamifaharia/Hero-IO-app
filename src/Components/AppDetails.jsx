@@ -17,15 +17,14 @@ const AppDetails = () => {
 
     if (!app) return <div className="p-20 text-center font-bold text-[#142A5C]">Loading app details...</div>;
 
-    // 💡 Ratings logic: Total count ber korar jonno
     const totalRatings = app.ratings.reduce((acc, curr) => acc + curr.count, 0);
 
     return (
         <div className="container mx-auto px-4 md:px-10 lg:px-20 py-8 md:py-12">
-            {/* Header Section */}
+            {/*------------------------------- Header Section --------------------*/}
             <div className="flex flex-col md:flex-row gap-8 md:gap-10 items-center md:items-start bg-white p-6 md:p-10 rounded-3xl shadow-sm border border-gray-100">
                 
-                {/* App Image from JSON */}
+                {/*----------------------- App Image from JSON -----------------------*/}
                 <div className="w-32 h-32 md:w-48 md:h-48 rounded-[2.5rem] overflow-hidden shadow-lg flex-shrink-0 border-4 border-white bg-gray-50">
                     <img 
                         src={app.image} 
@@ -38,7 +37,7 @@ const AppDetails = () => {
                     <h1 className="text-3xl md:text-5xl font-black text-[#142A5C] mb-2">{app.title}</h1>
                     <p className="text-[#5F42D0] font-medium mb-6">Developed by {app.companyName}</p>
                     
-                    {/* Dynamic Stats Bar */}
+                    {/*----------------------- Dynamic Stats Bar -----------------------*/}
                     <div className="flex justify-center md:justify-start gap-6 md:gap-10 mb-8 border-t border-b py-4 border-gray-100">
                         <div>
                             <p className="text-gray-400 text-[10px] md:text-xs uppercase font-bold tracking-wider">Downloads</p>
@@ -63,10 +62,10 @@ const AppDetails = () => {
                 </div>
             </div>
 
-            {/* Bottom Section: Dynamic Ratings & Description */}
+            {/*----------------------- Bottom Section: Dynamic Ratings & Description -----------------------*/}
             <div className="mt-12 grid grid-cols-1 lg:grid-cols-3 gap-10 md:gap-12">
                 
-                {/* 📊 Dynamic Ratings Bar from JSON Array */}
+                {/*----------------------- Dynamic Ratings Bar from JSON Array -----------------------*/}
                 <div className="lg:col-span-1 bg-white p-6 rounded-3xl border border-gray-50 shadow-sm h-fit">
                     <h3 className="text-xl font-bold text-[#142A5C] mb-6">Ratings & Reviews</h3>
                     <div className="space-y-4">
@@ -85,7 +84,7 @@ const AppDetails = () => {
                     <p className="text-center text-xs text-gray-400 mt-6 italic">Based on {app.reviews} total reviews</p>
                 </div>
 
-                {/* Description Section */}
+                {/*----------------------- Description Section -----------------------*/}
                 <div className="lg:col-span-2 bg-white p-6 md:p-8 rounded-3xl border border-gray-50 shadow-sm">
                     <h3 className="text-xl font-bold text-[#142A5C] mb-6 border-b pb-2">Description</h3>
                     <p className="text-gray-600 leading-relaxed text-sm md:text-base whitespace-pre-line">

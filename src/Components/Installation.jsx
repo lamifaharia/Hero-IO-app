@@ -1,7 +1,6 @@
 import { useOutletContext } from "react-router-dom";
 
 const Installation = () => {
-    // 💡 Context theke installed list-ta nilam
     const [installedApps] = useOutletContext(); 
 
     return (
@@ -18,9 +17,8 @@ const Installation = () => {
                                 key={index} 
                                 className="flex flex-col sm:flex-row items-center justify-between bg-white p-5 md:p-6 rounded-3xl border border-gray-100 shadow-sm hover:shadow-md transition-all gap-6"
                             >
-                                {/* App Info Section */}
+                                {/*----------------------- App Info Section -----------------------*/}
                                 <div className="flex flex-col sm:flex-row items-center gap-4 md:gap-6 text-center sm:text-left w-full sm:w-auto">
-                                    {/* 🖼️ App Image from JSON */}
                                     <div className="w-16 h-16 md:w-20 md:h-20 rounded-2xl overflow-hidden shadow-inner bg-gray-50 flex-shrink-0">
                                         <img 
                                             src={app.image} 
@@ -41,16 +39,16 @@ const Installation = () => {
                                     </div>
                                 </div>
 
-                                {/* Status Button */}
+                                {/*----------------------- Status Button -----------------------*/}
                                 <div className="w-full sm:w-auto">
-                                    <button className="btn btn-block sm:btn-md bg-[#00D991] hover:bg-[#00D991] text-white border-none rounded-xl px-10 font-bold shadow-sm cursor-default">
-                                        Installed
+                                    <button className="btn btn-block sm:btn-md bg-[#00D991] hover:bg-[#00D991] text-white border-none rounded px-10 font-bold shadow-sm cursor-default">
+                                        Uninstall
                                     </button>
                                 </div>
                             </div>
                         ))
                     ) : (
-                        /* Empty State */
+                        /*----------------------- Empty State -----------------------*/
                         <div className="text-center py-24 bg-white rounded-[3rem] border-2 border-dashed border-gray-200">
                             <div className="text-6xl mb-6">📦</div>
                             <h3 className="text-2xl font-bold text-gray-400 italic">
